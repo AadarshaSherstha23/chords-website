@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" type="text/css" href="admin.css">
+    <script src="admin.js"></script> 
+</head>
+<body>
+  <h1>Admin Page</h1>
+  <div class="container">
+    <form id="addSongForm">
+      <div class="form-group">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+      </div>
+      <div class="form-group">
+        <label for="artist">Artist:</label>
+        <input type="text" id="artist" name="artist" required>
+      </div>
+      <div class="form-group">
+        <label for="genre">Genre:</label>
+        <input type="text" id="genre" name="genre" required>
+      </div>
+      <div class="form-group">
+        <label for="duration">Duration (seconds):</label>
+        <input type="number" id="duration" name="duration" required>
+      </div>
+      <div class="form-group">
+        <button type="submit">Add Song</button>
+      </div>
+      <div class="form-group">
+        <button><a href= "index.html" class="index-link">Index</a></button>
+      </div>
+    </form>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
